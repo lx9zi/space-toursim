@@ -5,7 +5,7 @@ export default function Distnation() {
   const [planets, setPlanets] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/destinations")
+    fetch("http://localhost:3001/destinations")
       .then((res) => {
         return res.json();
       })

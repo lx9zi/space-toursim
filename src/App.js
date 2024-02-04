@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/*" element={<Page404 />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/space-toursim" element={<Home />} />
         <Route path="/distnation" element={<Destination />} />
         <Route path="/crew" element={<Crew />} />
         <Route path="/technology" element={<Technology />} />

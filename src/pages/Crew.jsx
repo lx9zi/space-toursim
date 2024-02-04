@@ -5,7 +5,7 @@ export default function Crew() {
   const [crewName, setCrewName] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/crew")
+    fetch("http://localhost:3001/crew")
       .then((res) => {
         return res.json();
       })

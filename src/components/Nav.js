@@ -35,7 +35,7 @@ export default function Nav() {
               : "flex w-full justify-between"
           }
         >
-          <Link to="/">
+          <Link to="/space-toursim">
             <li className="hover:border-b border-gray-200 cursor-pointer focus:border-b focus:border-gray-200">
               <span className="font-bold mr-1 inline-block lg:hidden">00 </span>
               home

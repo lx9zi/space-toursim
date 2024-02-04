@@ -5,7 +5,7 @@ export default function Space() {
   const [spaceName, setSpaceName] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/technology")
+    fetch("http://localhost:3001/technology")
       .then((res) => {
         return res.json();
       })
